@@ -43,6 +43,11 @@ jobs:
             echo "::set-output name=command::ci"
             echo "::set-output name=runner::npx --no-install"
             exit 0
+          elif [ -f "${{ github.workspace }}/pnpm.lock.yaml" ]; then
+            echo "::set-output name=manager::pnpm"
+            echo "::set-output name=command::pnpm"
+            echo "::set-output name=runner::pnpm"
+            exit 0
           else
             echo "Unable to determine packager manager"
             exit 1
