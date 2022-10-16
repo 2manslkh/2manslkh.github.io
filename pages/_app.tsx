@@ -1,6 +1,7 @@
 import "../styles/globals.css";
 
 import { AppProps } from "next/app";
+import { BottomNavbar } from "../components/BottomNavBar/BottomNavBar";
 import Head from "next/head";
 import { Navbar } from "../components/NavBar/NavBar";
 
@@ -36,6 +37,8 @@ export default function MyApp({ Component, pageProps }: AppProps) {
       </Head>
       <Navbar />
       <Component {...pageProps} />
+      {/* Bottom Nav */}
+      <BottomNavbar />
     </>
   );
 }
