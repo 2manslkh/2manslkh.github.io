@@ -10,7 +10,7 @@ export const AppButton: React.FC<AppButtonDetails> = (
     <div className="justify-items-center">
       {/* App Image */}
       <button
-        className="btn p-0 w-20 h-20 shadow-md"
+        className="btn p-0 w-16 h-16 shadow-md"
         onClick={() => console.log(props.name)}
       >
         <img className="rounded-lg" src={props.icon} />
