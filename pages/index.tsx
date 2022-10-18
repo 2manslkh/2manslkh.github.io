@@ -29,8 +29,8 @@ export default function Home() {
           icon="./icons/whatsapp-icon.svg"
           link="https://wa.me/qr/E3KTGXRXXSQGB1"
         />
-        <AppButton name="Kakao" icon="./icons/kakao-icon.svg" />
-        <AppButton name="OnlyFans" icon="./icons/onlyfans-blue-icon.svg" />
+        {/* <AppButton name="Kakao" icon="./icons/kakao-icon.svg" />
+        <AppButton name="OnlyFans" icon="./icons/onlyfans-blue-icon.svg" /> */}
         <AppButton
           name="LinkedIn"
           icon="./icons/linkedin-icon.svg"
